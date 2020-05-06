@@ -1,0 +1,36 @@
+  body, div, h1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f2edff;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  button {
+   margin: auto;
+   width: 100px;
+   height: 50px;
+  }
+  
+  #result {
+    font-size: 4em;
+  }
+  .success{
+    background: #65e499;
+  }
+
+  .failed {
+    background: #ea5353;
+  }

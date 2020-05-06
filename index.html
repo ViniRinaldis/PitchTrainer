@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ear Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Ear Trainer</h1>
+
+    <div>
+      <button onclick="play_random_note()">Play a Random note</button>
+      <button onclick="replay_note()">replay note</button>
+    </div>
+
+    <div>
+      <button id='C' onclick="verifyNote('C')">C</button>
+      <button id='D' onclick="verifyNote('D')">D</button>
+      <button id='E' onclick="verifyNote('E')">E</button>
+      <button id='F' onclick="verifyNote('F')">F</button>
+      <button id='G' onclick="verifyNote('G')">G</button>
+      <button id='A' onclick="verifyNote('A')">A</button>
+      <button id='B' onclick="verifyNote('B')">B</button>
+      <button id='C_above' onclick="verifyNote('C_above')">C+1</button>
+    </div>
+
+    <div>
+      <h1 id="result"></h1>
+    </div>
+    <div>
+      <h2 id="streak"></h1>
+    </div>
+  </body>
+</html>
